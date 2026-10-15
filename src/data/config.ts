@@ -4,8 +4,8 @@ export const CONFIG = {
   // ---------------------------------------------------------------------------
   site: {
     url: "https://emaduddin-64.github.io",
-    locale: "en_US",
-    twitterHandle: "@alexmercer_dev",
+    locale: "",
+    twitterHandle: "",
   },
 
   // ---------------------------------------------------------------------------
