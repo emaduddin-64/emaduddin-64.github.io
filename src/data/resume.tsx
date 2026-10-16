@@ -91,8 +91,8 @@ export const DATA = {
     { name: "Adobe Suite", icon: Icons.adobe },
   ],
   navbar: [
-    { href: "/", icon: House, label: "Home" },
-    { href: "/", icon: Library, label: "[Under Construction!]" },
+    //{ href: "/", icon: House, label: "Home" },
+    //{ href: "/", icon: Library, label: "[Under Construction!]" },
   ],
   contact: {
     email: "emadeddin.alchmri@outlook.com",

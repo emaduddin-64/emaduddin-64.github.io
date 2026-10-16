@@ -39,10 +39,12 @@ export default function Navbar() {
             </Tooltip>
           );
         })}
-        <Separator
-          orientation="vertical"
-          className="h-2/3 m-auto w-px bg-border"
-        />
+        {DATA.navbar.length > 0 && (
+          <Separator
+            orientation="vertical"
+            className="h-2/3 m-auto w-px bg-border"
+          />
+        )}
         {Object.entries(DATA.contact.social)
           .filter(([_, social]) => social.navbar)
           .map(([name, social], index) => {
